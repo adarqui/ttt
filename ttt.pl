@@ -1,10 +1,10 @@
 # ttt - tcpdump top talk parser (formerly iptraf_parser.pl)
 #!/usr/bin/perl
 use Data::Dumper;
-use Switch;
+#use Switch;
 use Socket;
 use Getopt::Long;
-use Text::Tabs;
+#use Text::Tabs;
 use POSIX;
 
 %config;
