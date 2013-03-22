@@ -191,6 +191,7 @@ root@serv:~/admin/git/ttt# perl ttt.pl --help
 				--iponly		:	Maximum condensed data, only keep track of src/dst ip pairs
 				--summary		:	Print (or not) out a summary of the flows / top talkers
 				--columns		:	Print (or not) output in columns format
+				--fortigate		:	Process the input log as a fortigate diag sniffer packet log
 				--debug			:	Print out debugging information	
 				--help			:	This menu
 		
