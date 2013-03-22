@@ -18,6 +18,13 @@ This parser will create a sorted (by total byte count) table of traffic from a t
  # tcpdump -tt -nn -q -i derp0 > dump.txt
  # perl ttt.pl --in dump.txt 
 
+Or (fortigate support):
+
+ FORTIGATE~# diag sniffer packet any none 0 <-- need verbose level of 0
+ past that into dump.txt
+ # perl ttt.pl --in dump.txt --fort
+
+
 
 Quick example usage. The last example is for pasting into the iptrafdjs experimental code: (https://boingterd.com:65503 && https://github.com/adarqui/iptrafdjs). The different output styles are annoying but needed for various reasons.
 
