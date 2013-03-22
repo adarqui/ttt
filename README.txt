@@ -6,7 +6,7 @@
 
 *** READ THE README HERE TO SEE THE CORRECT FORMATTING ***
 
-https://raw.github.com/adarqui/ttt/master/README.md
+https://raw.github.com/adarqui/ttt/master/README.txt
 
 ***/READ THE README HERE TO SEE THE CORRECT FORMATTING ***
 
